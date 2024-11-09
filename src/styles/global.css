@@ -1,0 +1,17 @@
+@keyframes moveUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    /* Adjust this value for smaller movement */
+}
+
+.animate-up-down {
+    animation: moveUpDown 1s ease-in-out infinite;
+}
